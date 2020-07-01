@@ -27,12 +27,12 @@ The program's output is the final position of the rover after all the move comma
 represented as a coordinate pair and a direction, joined by colons to form a string. For example: a rover whose 
 position is `2:3:W` is at square (2,3), facing west.
 
-### Examples
-
-- given a grid, input `MMRMMLM` gives output `2:3:N`
-- given a grid, input `MMMMMMMMMM` gives output `0:0:N` (due to wrap-around)
 
 ### Rules
-
+- The rover start from 0,0, in North direction.
 - The rover receives a char array of commands e.g. `RMMLM` and returns the finishing point after the moves e.g. `2:1:N`
 - The rover wraps around if it reaches the end of the grid.
+
+### Examples
+- given a grid, input `MMRMMLM` gives output `2:3:N`
+- given a grid, input `MMMMMMMMMM` gives output `0:0:N` (due to wrap-around)
