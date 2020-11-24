@@ -3,14 +3,18 @@
 Queremos hacer un servicio que se encargue de calcular ejercicios matematicas simples (sin paréntesis) , donde
 tenemos el siguiente input y esperamos el siguiente output (uno por linea):
 
-INPUT
+INPUT (una por linea)
     3 x 4 + 4 - 1
+    
     1 + 2 + 3 + 4
+    
     3 / 3 + 3 - 3
 
-OUTPUT
+OUTPUT (una por linea)
     3 x 4 + 4 - 1 = 15
+    
     1 + 2 + 3 + 4 = 10
+    
     3 / 3 + 3 - 3 = 1
    
 Para ello cada una de las operaciones básicas son un microservicio, en concreto (como mínimo):
